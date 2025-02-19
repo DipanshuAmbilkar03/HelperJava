@@ -25,13 +25,13 @@ public class diameterOfATree {
         return (Math.max(leftHeight, rightHeight)+1);
     }
 
-    public static int diameterOfATree(Node root) {
+    public static int diameterOfTree(Node root) {
         if(root == null) {
             return 0;
         }
 
-        int leftDia = diameterOfATree(root.left);
-        int rightDia = diameterOfATree(root.right);
+        int leftDia = diameterOfTree(root.left);
+        int rightDia = diameterOfTree(root.right);
         int leftHeight = heightofTree(root.left);
         int rightHeight = heightofTree(root.right);
 
@@ -47,6 +47,6 @@ public class diameterOfATree {
         root.right.left = new Node(6);
         root.right.right = new Node(7);
 
-        System.out.println("Diameter of the tree : " + diameterOfATree(root));
+        System.out.println("Diameter of the tree : " + diameterOfTree(root));
     }
 }
