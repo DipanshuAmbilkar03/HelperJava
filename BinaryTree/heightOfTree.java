@@ -36,7 +36,10 @@ public class heightOfTree {
         return leftNode + rightNode + 1;
     }
     public static void main(String[] args) {
-        Node root = new Node(1);
+        System.out.println("enter root node : ");
+        Scanner sc = new Scanner(System.in);
+        int data = sc.nextInt();
+        Node root = new Node(data);
         root.left = new Node(2);
         root.right = new Node(3);
         root.left.left = new Node(4);

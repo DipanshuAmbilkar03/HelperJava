@@ -38,6 +38,29 @@ public class diameterOfATree {
         int selfHeight = leftHeight + rightHeight + 1;
         return Math.max(selfHeight , Math.max(leftDia , rightDia));
     }
+
+    static class Info {
+        int dia;
+        int ht;
+
+        private Info(int dia,int ht) {
+            this.dia = dia;
+            this.ht = ht;
+        }
+    }
+    public static Info diameter(Node root) {
+        if(root == null){
+            return new Info(0,0);
+        }
+
+        Info leftInfo = diameter(root.left);
+        Info rightInfo = diameter(root.right);
+
+        int dia = Math.max(Math.max(leftInfo.dia,rightInfo.dia ), leftInfo.ht+rightInfo.ht+1);
+        int ht = Math.max(leftInfo.ht ,rightInfo.ht) + 1;
+
+        return new Info(dia, ht);
+    }
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
@@ -48,5 +71,7 @@ public class diameterOfATree {
         root.right.right = new Node(7);
 
         System.out.println("Diameter of the tree : " + diameterOfTree(root));
+
+        System.out.println(diameter(root).dia);
     }
 }
