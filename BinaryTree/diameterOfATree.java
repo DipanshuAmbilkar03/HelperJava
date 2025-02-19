@@ -71,7 +71,9 @@ public class diameterOfATree {
         root.right.right = new Node(7);
 
         System.out.println("Diameter of the tree : " + diameterOfTree(root));
+        System.out.println("Height of the tree : " + heightofTree(root));
 
-        System.out.println(diameter(root).dia);
+        System.out.println("Diameter of the tree (Optimized Time complexity O(n)): " +diameter(root).dia);
+        System.out.println("Height of the tree (Optimized Time complexity O(n)): " +diameter(root).ht);
     }
 }
