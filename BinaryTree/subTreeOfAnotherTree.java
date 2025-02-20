@@ -24,11 +24,11 @@ public class subTreeOfAnotherTree {
             return false;
         }
         // left subNode not same
-        if(isIdentical(root.left, subNode.left)){
+        if(!isIdentical(root.left, subNode.left)){
             return false;
         } 
         // right subNode not same
-        if(isIdentical(root.right, subNode.right)){
+        if(!isIdentical(root.right, subNode.right)){
             return false;
         } 
 
