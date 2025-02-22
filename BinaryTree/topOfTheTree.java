@@ -18,7 +18,7 @@ public class topOfTheTree {
         int hd;
 
         Info(Node node,int hd) {
-            this.node = null;
+            this.node = node;
             this.hd = hd;
         }
     }
@@ -41,10 +41,27 @@ public class topOfTheTree {
                 }else{
                     q.add(null);
                 }
-            }else{
-                
+            }else {
+                if(!map.containsKey(curr.hd)) {
+                    map.put(curr.hd,curr.node);
+                }
+
+                if(curr.node.left != null) {
+                    q.add(new Info(curr.node.left,curr.hd-1));
+                    min = Math.min(min , curr.hd-1);
+                }
+
+                if(curr.node.right != null) {
+                    q.add(new Info(curr.node.right,curr.hd+1));
+                    max = Math.max(max , curr.hd+1);
+                }
             }
         }
+
+        for(int i=min; i<=max; i++ ){
+            System.out.print(map.get(i).data+" ");
+        }
+        System.out.println();
     }
     public static void main(String[] args) {
         Node root = new Node(1);
@@ -54,5 +71,7 @@ public class topOfTheTree {
         root.left.right = new Node(5);
         root.right.left = new Node(6);
         root.right.right = new Node(7);
+    
+        topofTree(root);
     }
 }
