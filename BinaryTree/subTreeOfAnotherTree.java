@@ -1,5 +1,4 @@
 package BinaryTree;
-import java.util.*;
 
 public class subTreeOfAnotherTree {
     static class Node {
