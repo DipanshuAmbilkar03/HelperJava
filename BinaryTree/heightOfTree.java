@@ -37,6 +37,7 @@ public class heightOfTree {
     }
     public static void main(String[] args) {
         System.out.println("enter root node : ");
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int data = sc.nextInt();
         Node root = new Node(data);
