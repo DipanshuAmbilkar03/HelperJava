@@ -64,7 +64,7 @@ public class lowestCommonAncestor {
         root.right.right = new Node(7);
     
         int n1 = 4; 
-        int n2 = 10;
+        int n2 = 5;
 
         System.out.println("Lowest Common Ancestor of "+n1+" and "+ n2 +" is "+ lca(root, n1, n2).data);
     }
