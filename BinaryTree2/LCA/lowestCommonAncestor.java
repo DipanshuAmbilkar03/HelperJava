@@ -1,4 +1,4 @@
-package BinaryTree2;
+package BinaryTree2.LCA;
 
 import java.util.ArrayList;
 
@@ -64,7 +64,7 @@ public class lowestCommonAncestor {
         root.right.right = new Node(7);
     
         int n1 = 4; 
-        int n2 = 5;
+        int n2 = 10;
 
         System.out.println("Lowest Common Ancestor of "+n1+" and "+ n2 +" is "+ lca(root, n1, n2).data);
     }
