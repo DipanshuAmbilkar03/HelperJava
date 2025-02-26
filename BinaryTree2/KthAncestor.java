@@ -46,7 +46,7 @@ public class KthAncestor {
         root.right.left = new Node(6);
         root.right.right = new Node(7);
     
-        int n = 5;
+        int n = 6;
         int k = 2; 
 
         KthNode(root, n, k);
