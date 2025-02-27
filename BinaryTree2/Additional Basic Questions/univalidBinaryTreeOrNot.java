@@ -40,7 +40,6 @@ public class univalidBinaryTreeOrNot {
         root.right = new Node(2);
         root.left.left = new Node(2);
         root.left.right = new Node(2);
-    
         // System.out.println(univalideNode(root));
 
         if(univalideNode(root)) {
