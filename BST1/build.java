@@ -38,6 +38,24 @@ public class build {
 
     }
 
+    public static Node search(Node root, int key) {
+        if(root == null) {
+            return root;
+        }
+
+        if(root.data == key) {
+            return root;
+        }
+
+        if(key < root.data) {
+            root = search(root.left, key);
+        }else{
+            root = search(root.right, key);
+        }
+
+        return root;
+    }
+
     public static void main(String[] args) {
         int[] values = {6,10,5,1,9,3,8,4,2,7};
         Node root = null;
@@ -51,5 +69,7 @@ public class build {
         // }
 
         inorder(root);
+
+        System.out.println("\nFound at index : "+search(root, 5).data);
     }
 }
