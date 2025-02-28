@@ -73,26 +73,64 @@ public class build {
 
     }
 
+    public static Node deleteNode(Node root, int val) {
+        if(root.data < val) {
+            root.right = deleteNode(root.right, val);
+        }
+
+        else if(root.data > val) {
+            root.left = deleteNode(root.left, val);
+        }   
+
+        else{
+            // case -1 
+            if(root.right == null && root.left == null) {
+                return null;
+            }
+            
+            // case - 2 
+            if(root.left == null) {
+                return root.right;
+            }else if(root.right == null) {
+                return root.left;
+            }
+
+            //case - 3
+            Node IC = ICSuccessor(root.right);
+            root.data = IC.data;
+            root.right = deleteNode(root.right, IC.data);
+        }   
+
+        return root;
+    }   
+
+    public static Node ICSuccessor(Node root) {
+        while(root.left != null) {
+            root = root.left;        
+        }
+        return root;
+    }
+
+
     public static void main(String[] args) {
-        int[] values = {6,10,5,1,9,3,8,4,2,7};
+        int[] values = {4,1,2,0,5,6};
         Node root = null;
 
         for(int i=0; i<values.length; i++) {
             root = insert(root, values[i]);
         }
-        
-        // for(int i=1; i<=10; i++) {
-        //     root = insert(root, i);
-        // }
 
         inorder(root);
 
-        System.out.println("\nFound at index : "+search(root, 5).data);
-
-        if(search2(root, 5)) {
-            System.out.println("Found!");
-        }else{
-            System.out.println("Not Found!");
+        Node result = search(root, 5);
+        if (result != null) {
+            System.out.println("\nFound at index: " + result.data);
+        } else {
+            System.out.println("\nNot Found!");
         }
+        
+        root = deleteNode(root, 1);
+        System.out.println("\nDeleted");
+        inorder(root);
     }
 }
