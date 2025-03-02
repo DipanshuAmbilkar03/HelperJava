@@ -139,6 +139,7 @@ public class build {
         }
         System.out.println("Null");
     }
+
     public static void Root2Leaf(Node root, ArrayList<Integer> path) {
         if(root == null) {
             return;
@@ -151,6 +152,22 @@ public class build {
         Root2Leaf(root.left, path);
         Root2Leaf(root.right, path);
         path.remove(path.size()-1);
+    }
+
+    public static boolean validBst(Node root, Node min, Node max) {
+        if(root == null) {
+            return true;
+        }
+
+        if(min != null && root.data <= min.data) {
+            return false;
+        }
+        else if(max != null && root.data >= max.data ) {
+            return false;
+        }
+
+        return validBst(root.left, min, root) && validBst(root.right, root, max);
+
     }
 
     public static void main(String[] args) {
@@ -179,5 +196,11 @@ public class build {
         
         System.out.println("All paths from root to leaf Node");
         Root2Leaf(root, new ArrayList<>());
+
+        if(validBst(root, null, null)) {
+            System.out.println("This is a Valid BST");
+        }else{
+            System.out.println("This is not a Valid BST");
+        }
     }
 }
