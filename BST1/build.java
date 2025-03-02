@@ -153,7 +153,7 @@ public class build {
         // System.out.println("\nDeleted");
         // inorder(root);
 
-        System.out.print("\nRange of nodes : ");
+        System.out.print("Range of nodes : ");
         findRange(root, 5, 12);
     }
 }
