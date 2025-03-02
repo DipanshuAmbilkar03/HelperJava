@@ -2,6 +2,8 @@ package BST1;
 
 import java.util.*;
 
+import BinaryTree2.minimumDistance;
+
 public class build {
     static class Node{
         int data;
