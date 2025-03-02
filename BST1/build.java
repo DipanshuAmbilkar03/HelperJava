@@ -1,5 +1,7 @@
 package BST1;
 
+import java.util.*;
+
 public class build {
     static class Node{
         int data;
@@ -131,9 +133,28 @@ public class build {
         }
     }
 
+    public static void printRoot2Leaf(ArrayList<Integer> path) {
+        for(int i=0; i<path.size(); i++ ){
+            System.out.print(path.get(i)+"-->");
+        }
+        System.out.println("Null");
+    }
+    public static void Root2Leaf(Node root, ArrayList<Integer> path) {
+        if(root == null) {
+            return;
+        }
+        path.add(root.data);
+        
+        if(root.left == null && root.right== null) {
+            printRoot2Leaf(path);
+        }
+        Root2Leaf(root.left, path);
+        Root2Leaf(root.right, path);
+        path.remove(path.size()-1);
+    }
 
     public static void main(String[] args) {
-        int[] values = {8,5,3,1,4,6,10,11,14};
+        int[] values = {8,5,3,6,10,11,14};
         Node root = null;
 
         for(int i=0; i<values.length; i++) {
@@ -153,7 +174,10 @@ public class build {
         // System.out.println("\nDeleted");
         // inorder(root);
 
-        System.out.print("Range of nodes : ");
-        findRange(root, 5, 12);
+        // System.out.print("\nRange of nodes : ");
+        // findRange(root, 5, 12);
+        
+        System.out.println("All paths from root to leaf Node");
+        Root2Leaf(root, new ArrayList<>());
     }
 }
