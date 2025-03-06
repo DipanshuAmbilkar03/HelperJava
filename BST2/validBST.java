@@ -75,7 +75,7 @@ public class validBST {
         Info info = isBstNode(root);
         System.out.println("Largest Bst is : "+BSTsize);
 
-        preOrder(Info);
+        preOrder(root);
     }   
 }
 
