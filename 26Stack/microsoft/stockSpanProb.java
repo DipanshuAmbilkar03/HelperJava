@@ -12,13 +12,13 @@ public class stockSpanProb {
             while(!s.isEmpty() && currPrice > stocks[s.peek()]) {
                 s.pop();
             }
-            if(s.isEmpty()) {
-                span[i] = i+1;
-            }
-            else{
-                int prevhigh = s.peek();
-                span[i] = i - prevhigh; 
-            }
+                if(s.isEmpty()) {
+                    span[i] = i+1;
+                }
+                else{
+                    int prevhigh = s.peek();
+                    span[i] = i - prevhigh; 
+                }
 
             s.push(i);
         }
