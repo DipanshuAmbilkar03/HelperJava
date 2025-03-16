@@ -23,7 +23,6 @@ public class StacknextGreatestNum {
                 }
 
             // push el to the stack
-
             s.push(i);
         }
 
