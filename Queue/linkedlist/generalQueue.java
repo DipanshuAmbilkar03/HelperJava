@@ -54,7 +54,7 @@ public class generalQueue {
             return head.data;
         }
     }
-    
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         Queue q = new Queue();
 
