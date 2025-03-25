@@ -12,11 +12,14 @@ public class binaryNums {
                 s.push(n % 2);
                 n = n / 2;
             }
-
+    
+            System.out.print(i + "->");
             while(!s.isEmpty()) {
+                
                 System.out.print(s.peek() + " ");
                 s.pop();
             }
+            System.out.println();
         }   
     }
     public static void main(String[] args) {
