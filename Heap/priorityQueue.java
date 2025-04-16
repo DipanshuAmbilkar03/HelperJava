@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 
 public class priorityQueue {
     public static void main(String[] args) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
         pq.add(10);
         pq.add(1);
         pq.add(21);
