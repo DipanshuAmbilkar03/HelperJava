@@ -6,11 +6,11 @@ public class heapSort {
         int right = 2*i+2;
         int maxIdx = i;
 
-        if(left < size && arr[left] > arr[maxIdx]) {
+        if(left < size && arr[left] < arr[maxIdx]) {
             maxIdx = left;
         }
         
-        if(right < size && arr[right] > arr[maxIdx]) {
+        if(right < size && arr[right] < arr[maxIdx]) {
             maxIdx = right;
         }
 
