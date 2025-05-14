@@ -1,4 +1,5 @@
 public class knap_memoization {
+    // time complexity => O(n*w)
     public static int knapSack(int[] val, int[] wt,int w, int n,int[][] dp) {
         if(w == 0 || n == 0) {
             return 0;
