@@ -35,7 +35,6 @@ public class knap_tabulation {
                 }
             }
         }
-
         return dp[n][w];
     }   
 
