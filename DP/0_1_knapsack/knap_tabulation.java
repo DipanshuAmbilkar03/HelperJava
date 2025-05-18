@@ -16,13 +16,11 @@ public class knap_tabulation {
 
         for(int i=1;i<n+1;i++) {
             for(int j=1;j<w+1;j++) {
-                int v = val[i-1];
-                int W = wt[i-1];
+                int v = val[i-1]; // ith item value
+                int W = wt[i-1];  // ith item weight
 
-                if(W <= j) {
-                    // valid 
-
-                    // include the value
+                if(W <= j) { // valid 
+                // include the value
                     int includeProfit = v + dp[i-1][j-W];
                     // exclude the value
                     int excludeProfit = dp[i-1][j];
