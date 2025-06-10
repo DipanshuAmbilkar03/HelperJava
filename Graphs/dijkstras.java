@@ -26,7 +26,6 @@ public class dijkstras {     // TC if PQ is used -> O(V + Elog(V))  pq made the 
         PriorityQueue<Pair> pq = new PriorityQueue<>();
 
         pq.add(new Pair(src, 0));
-        
         while(!pq.isEmpty()) {
             Pair curr = pq.remove();
             if(!vis[curr.n]) {
