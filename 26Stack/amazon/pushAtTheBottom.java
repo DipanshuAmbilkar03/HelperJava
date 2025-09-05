@@ -1,4 +1,4 @@
-package amazon;
+// package amazon;
 import java.util.*;
 
 public class pushAtTheBottom {
