@@ -1,4 +1,4 @@
-public class inviteNpeopleEitherSingleOrInPair {
+    public class inviteNpeopleEitherSingleOrInPair {
     public static int invitePeopleInparty(int n) {
         if(n <= 1) {
             return 1;
