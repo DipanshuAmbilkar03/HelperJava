@@ -17,12 +17,13 @@ public class bfs {
         Queue<Integer> q = new LinkedList<>();
         boolean vis[] = new boolean[graph.length];
         q.add(0);
+        ArrayList<Integer> bfs = new ArrayList<>();
 
         while(!q.isEmpty()) {
             int curr = q.remove();
 
             if(!vis[curr]) {
-                System.out.print(curr + " ");
+                bfs.add(curr);
                 vis[curr] = true;
                 for(int i=0; i<graph[curr].size(); i++) {
                     Edge e = graph[curr].get(i);
@@ -30,7 +31,30 @@ public class bfs {
                 }
             }
         }
+
+        System.out.println(bfs);
     }
+   public static ArrayList<Integer> bfs(ArrayList<Edge> graph[]){
+        boolean[] vis = new boolean[graph.length];
+        Queue<Integer> q = new LinkedList<>();
+        ArrayList<Integer> res = new ArrayList<>();
+        q.add(0);
+        vis[0] = true;
+
+        while(!q.isEmpty()){
+            int node = q.poll();
+            res.add(node);
+            
+            for(Edge x : graph[node]) {
+                if(!vis[x.des]) {
+                    q.add(x.des);
+                    vis[x.des] = true;
+                }
+            }
+        }
+        
+        return res;
+    }   
 
     public static void createGraph(ArrayList<Edge> graph[]) {
         for(int i=0; i<graph.length; i++ ){
@@ -69,6 +93,9 @@ public class bfs {
         int V = 7;
         ArrayList<Edge> [] graph = new ArrayList[V];
         createGraph(graph);
+        // List<Integer> bfsans = bfs(graph);
+
+        // System.out.println(bfsans);
         BFS(graph);
     }
 }
