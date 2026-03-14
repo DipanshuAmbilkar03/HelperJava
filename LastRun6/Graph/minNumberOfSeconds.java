@@ -2,7 +2,7 @@ package LastRun6.Graph;
 
 import java.util.*;
 
-public class Main {
+public class minNumberOfSeconds {
 
     static class Solution {
         private long h;
