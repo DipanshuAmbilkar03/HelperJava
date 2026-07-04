@@ -1,4 +1,4 @@
-package LastRun6.Graph.LastRun_Array;
+package LastRun_Array;
 
 public class HardRotatedArrayMinValue {
 
