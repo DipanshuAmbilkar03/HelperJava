@@ -17,6 +17,7 @@ Whenever the user pastes a Java LeetCode / GFG / HackerRank `class Solution` blo
 7. If the code uses LeetCode-specific classes like `TreeNode` or `ListNode`, create those classes inside the file so it is standalone.
 8. Fix obvious compilation issues only (missing imports, non-static access). Do not change the algorithm.
 9. Output format in chat: return ONLY the complete Java code in a ```java block. No explanation, no approach, no complexity analysis, no extra comments outside the code. After the code block, print one line: `Commit msg: ...` and one line confirming save + push.
+10. Update the README files as well (MANDATORY — see workflow below).
 
 ## Save / commit / push workflow (MANDATORY every time)
 
@@ -27,3 +28,14 @@ Whenever the user pastes a Java LeetCode / GFG / HackerRank `class Solution` blo
 - Commit message format: `<number>. <Title> (<Easy|Medium|Hard>)` — e.g. `1807. Evaluate the Bracket Pairs of a String (Medium)`. Infer number/title/difficulty from the code or well-known LeetCode mapping. If unsure, use the class-name-derived title and ask nothing — just pick the best known match.
 - ALWAYS run: `git add <file>`, `git commit -m "<msg>"`, `git push origin main`. Never skip push. Never leave changes uncommitted.
 - Finally confirm branch is in sync with `origin/main`.
+
+## README update workflow (MANDATORY — part of every conversion)
+
+Every conversion must also update the README index so the repo stays navigable:
+
+1. Root `README.md` — LastRun5 Strings table (lines ~557-570): add one row per new file:
+   `| \`FileName.java\` | <Problem title> |`
+   Keep rows alphabetical by file name where practical. Do NOT touch other sections.
+2. `LastRun5/Strings/README.md` (create if missing): a `LastRun5/Strings` index with the same table:
+   `# LastRun5/Strings` + `| File | Problem |` rows for EVERY `.java` file directly in that folder (top level only, skip `.class` files and subfolders). Include the LeetCode number in the Problem column when known, e.g. `1807. Evaluate the Bracket Pairs of a String (Medium)`.
+3. Include all updated READMEs in the same commit: `git add <java file> README.md LastRun5/Strings/README.md`, single commit with the `<number>. <Title> (<Easy|Medium|Hard>)` message, then push.

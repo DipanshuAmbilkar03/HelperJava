@@ -560,12 +560,21 @@ These directories represent the most recent problem-solving sessions, organized 
 
 | File | Problem |
 |------|---------|
-| `ProcessString.java` | Process string |
-| `PalindromicSubstrings.java` | Palindromic substrings |
-| `PermutationInString.java` | Permutation in string |
-| `WeightedWordMapping.java` | Weighted word mapping |
-| `MinOperationsAlternatingString.java` | Min ops for alternating string |
+| `EvaluateBracketPairsOfString.java` | 1807. Evaluate the Bracket Pairs of a String (Medium) |
+| `MaxDepthAfterSplit.java` | 1111. Maximum Nesting Depth of Two Valid Parentheses Strings (Medium) |
+| `MaximumActiveSectionsAfterTrade.java` | Maximum Active Sections After Trade |
+| `MaximumNestingDepthOfParentheses.java` | 1614. Maximum Nesting Depth of the Parentheses (Easy) |
+| `MinOperationsAlternatingString.java` | 1758. Minimum Changes To Make Alternating Binary String (Easy) |
+| `PalindromicSubstrings.java` | 647. Palindromic Substrings (Medium) |
 | `passwordStrengthCheck.java` | Password strength check |
+| `PermutationInString.java` | 567. Permutation in String (Medium) |
+| `ProcessString.java` | Process string |
+| `ReverseParentheses.java` | 1190. Reverse Substrings Between Each Pair of Parentheses (Medium) |
+| `ScoreOfParentheses.java` | 856. Score of Parentheses (Medium) |
+| `SmallestPalindrome.java` | 2697. Lexicographically Smallest Palindrome (Easy) |
+| `SmallestSubsequenceOfDistinctCharacters.java` | 1081. Smallest Subsequence of Distinct Characters (Medium) |
+| `ValidParentheses.java` | 20. Valid Parentheses (Easy) |
+| `WeightedWordMapping.java` | Weighted word mapping |
 | `count no of special character Series/count_no_of_specical_char_I.java` | Count special chars I |
 | `count no of special character Series/count_no_of_specical_char_II.java` | Count special chars II |
 
