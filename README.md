@@ -571,6 +571,7 @@ These directories represent the most recent problem-solving sessions, organized 
 | `PermutationInString.java` | 567. Permutation in String (Medium) |
 | `ProcessString.java` | Process string |
 | `ReverseParentheses.java` | 1190. Reverse Substrings Between Each Pair of Parentheses (Medium) |
+| `RemoveInvalidParentheses.java` | 301. Remove Invalid Parentheses (Hard) |
 | `ScoreOfParentheses.java` | 856. Score of Parentheses (Medium) |
 | `SmallestPalindrome.java` | 2697. Lexicographically Smallest Palindrome (Easy) |
 | `SmallestSubsequenceOfDistinctCharacters.java` | 1081. Smallest Subsequence of Distinct Characters (Medium) |
