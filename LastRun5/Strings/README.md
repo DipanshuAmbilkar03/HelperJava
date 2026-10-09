@@ -7,6 +7,7 @@
 | `MaximumActiveSectionsAfterTrade.java` | Maximum Active Sections After Trade |
 | `MaximumNestingDepthOfParentheses.java` | 1614. Maximum Nesting Depth of the Parentheses (Easy) |
 | `MinAddToMakeValid.java` | 921. Minimum Add to Make Parentheses Valid (Medium) |
+| `MinInsertionsToBalance.java` | 1541. Minimum Insertions to Balance a Parentheses String (Medium) |
 | `MinOperationsAlternatingString.java` | 1758. Minimum Changes To Make Alternating Binary String (Easy) |
 | `PalindromicSubstrings.java` | 647. Palindromic Substrings (Medium) |
 | `passwordStrengthCheck.java` | Password Strength Check |
