@@ -9,6 +9,7 @@
 | `MinAddToMakeValid.java` | 921. Minimum Add to Make Parentheses Valid (Medium) |
 | `MinInsertionsToBalance.java` | 1541. Minimum Insertions to Balance a Parentheses String (Medium) |
 | `MinOperationsAlternatingString.java` | 1758. Minimum Changes To Make Alternating Binary String (Easy) |
+| `MinSumSquareDiff.java` | 2333. Minimum Sum of Squared Difference (Medium) |
 | `PalindromicSubstrings.java` | 647. Palindromic Substrings (Medium) |
 | `passwordStrengthCheck.java` | Password Strength Check |
 | `PermutationInString.java` | 567. Permutation in String (Medium) |
