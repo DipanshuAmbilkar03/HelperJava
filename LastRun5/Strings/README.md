@@ -19,5 +19,6 @@
 | `ScoreOfParentheses.java` | 856. Score of Parentheses (Medium) |
 | `SmallestPalindrome.java` | 2697. Lexicographically Smallest Palindrome (Easy) |
 | `SmallestSubsequenceOfDistinctCharacters.java` | 1081. Smallest Subsequence of Distinct Characters (Medium) |
+| `SumOfSquaresSpecial.java` | 2778. Sum of Squares of Special Elements (Easy) |
 | `ValidParentheses.java` | 20. Valid Parentheses (Easy) |
 | `WeightedWordMapping.java` | Weighted Word Mapping |
