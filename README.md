@@ -565,6 +565,7 @@ These directories represent the most recent problem-solving sessions, organized 
 | `MaximumActiveSectionsAfterTrade.java` | Maximum Active Sections After Trade |
 | `MaximumNestingDepthOfParentheses.java` | 1614. Maximum Nesting Depth of the Parentheses (Easy) |
 | `MaxAlternatingSumOfSquares.java` | Maximum alternating sum of squares |
+| `MaxSumOfSquares.java` | 3723. Maximize Sum of Squares of Digits (Easy) |
 | `MinAddToMakeValid.java` | 921. Minimum Add to Make Parentheses Valid (Medium) |
 | `MinInsertionsToBalance.java` | 1541. Minimum Insertions to Balance a Parentheses String (Medium) |
 | `MinOperationsAlternatingString.java` | 1758. Minimum Changes To Make Alternating Binary String (Easy) |
