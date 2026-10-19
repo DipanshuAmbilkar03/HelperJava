@@ -561,6 +561,7 @@ These directories represent the most recent problem-solving sessions, organized 
 | File | Problem |
 |------|---------|
 | `EvaluateBracketPairsOfString.java` | 1807. Evaluate the Bracket Pairs of a String (Medium) |
+| `FindTargetIndicesAfterSortingArray.java` | 2089. Find Target Indices After Sorting Array (Easy) |
 | `MaxDepthAfterSplit.java` | 1111. Maximum Nesting Depth of Two Valid Parentheses Strings (Medium) |
 | `MaximumActiveSectionsAfterTrade.java` | Maximum Active Sections After Trade |
 | `MaximumNestingDepthOfParentheses.java` | 1614. Maximum Nesting Depth of the Parentheses (Easy) |
