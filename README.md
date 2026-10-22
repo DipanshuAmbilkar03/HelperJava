@@ -571,6 +571,7 @@ These directories represent the most recent problem-solving sessions, organized 
 | `MinDeletionsAdjacentXorNonZero.java` | Minimum Deletions to Make Adjacent Elements Bitwise XOR Non-Zero (Easy) |
 | `MinInsertionsToBalance.java` | 1541. Minimum Insertions to Balance a Parentheses String (Medium) |
 | `MinOperationsAlternatingString.java` | 1758. Minimum Changes To Make Alternating Binary String (Easy) |
+| `MinOperationsToSortAPermutation.java` | 3942. Minimum Operations to Sort a Permutation (Medium) |
 | `MinSwapsSortByDigitSum.java` | 3551. Minimum Swaps to Sort by Digit Sum (Medium) |
 | `MinSumSquareDiff.java` | 2333. Minimum Sum of Squared Difference (Medium) |
 | `PalindromicSubstrings.java` | 647. Palindromic Substrings (Medium) |
