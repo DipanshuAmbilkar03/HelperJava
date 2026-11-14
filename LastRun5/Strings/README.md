@@ -12,6 +12,7 @@
 | `MinAddToMakeValid.java` | 921. Minimum Add to Make Parentheses Valid (Medium) |
 | `MinDeletionsAdjacentXorNonZero.java` | Minimum Deletions to Make Adjacent Elements Bitwise XOR Non-Zero (Easy) |
 | `MinInsertionsToBalance.java` | 1541. Minimum Insertions to Balance a Parentheses String (Medium) |
+| `MinimumPositiveSumSubarray.java` | 3364. Minimum Positive Sum Subarray (Easy) |
 | `MinOperationsAlternatingString.java` | 1758. Minimum Changes To Make Alternating Binary String (Easy) |
 | `MinOperationsToSortAPermutation.java` | 3942. Minimum Operations to Sort a Permutation (Medium) |
 | `MinSwapsSortByDigitSum.java` | 3551. Minimum Swaps to Sort by Digit Sum (Medium) |
