@@ -581,6 +581,7 @@ These directories represent the most recent problem-solving sessions, organized 
 | `passwordStrengthCheck.java` | Password strength check |
 | `PermutationInString.java` | 567. Permutation in String (Medium) |
 | `ProcessString.java` | Process string |
+| `ProductOfNumbers.java` | 1352. Product of the Last K Numbers (Medium) |
 | `ReverseParentheses.java` | 1190. Reverse Substrings Between Each Pair of Parentheses (Medium) |
 | `RemoveInvalidParentheses.java` | 301. Remove Invalid Parentheses (Hard) |
 | `ScoreOfParentheses.java` | 856. Score of Parentheses (Medium) |

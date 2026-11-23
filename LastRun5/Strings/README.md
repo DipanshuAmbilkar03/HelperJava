@@ -23,6 +23,7 @@
 | `passwordStrengthCheck.java` | Password Strength Check |
 | `PermutationInString.java` | 567. Permutation in String (Medium) |
 | `ProcessString.java` | 3583. Count Special Triplets (Medium) |
+| `ProductOfNumbers.java` | 1352. Product of the Last K Numbers (Medium) |
 | `ReverseParentheses.java` | 1190. Reverse Substrings Between Each Pair of Parentheses (Medium) |
 | `RemoveInvalidParentheses.java` | 301. Remove Invalid Parentheses (Hard) |
 | `ScoreOfParentheses.java` | 856. Score of Parentheses (Medium) |
