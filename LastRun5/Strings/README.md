@@ -31,5 +31,6 @@
 | `SmallestSubsequenceOfDistinctCharacters.java` | 1081. Smallest Subsequence of Distinct Characters (Medium) |
 | `StoneRemovalGame.java` | 3360. Stone Removal Game (Easy) |
 | `SumOfSquaresSpecial.java` | 2778. Sum of Squares of Special Elements (Easy) |
+| `TwoSumIIInputArrayIsSorted.java` | 167. Two Sum II - Input Array Is Sorted (Medium) |
 | `ValidParentheses.java` | 20. Valid Parentheses (Easy) |
 | `WeightedWordMapping.java` | Weighted Word Mapping |

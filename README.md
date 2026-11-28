@@ -589,6 +589,7 @@ These directories represent the most recent problem-solving sessions, organized 
 | `SmallestSubsequenceOfDistinctCharacters.java` | 1081. Smallest Subsequence of Distinct Characters (Medium) |
 | `StoneRemovalGame.java` | 3360. Stone Removal Game (Easy) |
 | `SumOfSquaresSpecial.java` | 2778. Sum of Squares of Special Elements (Easy) |
+| `TwoSumIIInputArrayIsSorted.java` | 167. Two Sum II - Input Array Is Sorted (Medium) |
 | `ValidParentheses.java` | 20. Valid Parentheses (Easy) |
 | `WeightedWordMapping.java` | Weighted word mapping |
 | `count no of special character Series/count_no_of_specical_char_I.java` | Count special chars I |
